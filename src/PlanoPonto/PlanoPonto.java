@@ -6,10 +6,10 @@ public class PlanoPonto {
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+		Scanner t = new Scanner(System.in);
 
-		double x = sc.nextDouble();
-		double y = sc.nextDouble();
+		double x = t.nextDouble();
+		double y = t.nextDouble();
 		
 		if (x == 0.0 && y == 0.0) {
 			System.out.println("Origem");
@@ -33,6 +33,6 @@ public class PlanoPonto {
 			System.out.println("Q4");
 		}
 		
-		sc.close();
+		t.close();
 	}
 }
